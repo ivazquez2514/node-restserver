@@ -1,0 +1,4 @@
+user: ivazquez25
+pwd: U25QeBFxOzLz7NXT
+
+mongodb+srv://ivazquez25:U25QeBFxOzLz7NXT@cluster0-4gtc6.mongodb.net/cafe
