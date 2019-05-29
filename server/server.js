@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use( express.static( path.resolve( __dirname, '../public' ) ) );
 
 // Configuración global de rutas
-app.use( require('./routes/index') );
+app.use( require('./routes/index.js') );
 
 mongoose.connect( process.env.URLDB,
     { useNewUrlParser: true, useCreateIndex: true },
